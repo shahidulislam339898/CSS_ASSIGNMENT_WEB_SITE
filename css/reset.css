@@ -46,11 +46,12 @@ c {
 }
 
 .context {
-    /* width: 100%; */
+    width: 100%;
     /* background-color: greenyellow; */
 }
 
 .game-context {
-    /* width: 1170px; */
+    width: 1170px;
+    margin: 0 auto;
 
 }

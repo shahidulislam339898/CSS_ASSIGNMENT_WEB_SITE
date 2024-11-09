@@ -10,7 +10,9 @@
 .header-info {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .icon-wrap {
@@ -60,7 +62,7 @@
 .top-menu nav ul li a {
     text-decoration: none;
     color: #fff;
-    padding: 31px 20px;
+    padding: 30px 20px;
     transition: .4s ease-in-out;
     font-weight: 600;
 }
@@ -150,7 +152,7 @@
 }
 
 .hero-btn .btn-one:hover>img {
-    transform: translate(rotate 1turn)
+    transform: translate(rotate 1turn);
 }
 
 .hero-btn .btn-two {
@@ -324,15 +326,15 @@
 /* Hero Area End */
 
 /* Game Conntext Start*/
-.game-context {
+/* .game-context { */
 
-    width: ;
-    overflow: hidden;
-    /* margin: 0 auto; */
-    /* justify-content: space-between; */
-    /* display: flex;
+/* width: ;
+    overflow: hidden; */
+/* margin: 0 auto; */
+/* justify-content: space-between; */
+/* display: flex;
     align-items: center;
     z-index: 99999999999 !important; */
-}
+/* } */
 
 /* Game Conntext Start*/
