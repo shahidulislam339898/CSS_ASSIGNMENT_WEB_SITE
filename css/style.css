@@ -47,8 +47,10 @@
 
 .top-menu nav ul {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 0;
+    /* display: inline-block; */
 }
 
 .top-menu nav ul li {
@@ -59,7 +61,7 @@
     display: block;
 }
 
-.top-menu nav ul li a {
+.top-menu nav ul li>a {
     text-decoration: none;
     color: #fff;
     padding: 30px 20px;
@@ -71,6 +73,231 @@
     background-color: #34485c;
 }
 
+/* Sub Menu */
+.top-menu {
+    position: relative;
+}
+
+ul.submenu {
+    position: absolute;
+    list-style: none;
+    /* visibility: hidden; */
+    width: 100%;
+    left: 0;
+    /* background: #ddd; */
+    transition: .3s ease-in-out;
+    /* height: 450px; */
+}
+
+.top-menu li:hover .submenu {
+    /* visibility: visible; */
+    /* background-color: #ddd; */
+}
+
+li.submenu-content {
+    top: 27px;
+    position: absolute;
+    background: #ddd;
+    width: 100%;
+    border-radius: 5px;
+    width: 700px;
+}
+
+.submenu-content {
+    border: 2px solid black;
+}
+
+.submenu-content-one {
+    text-align: center;
+    width: 230px;
+    padding: 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    margin: 5px;
+}
+
+.submenu-content-one:hover {
+    background: #fff;
+}
+
+.submenu-content-one>h3 {
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.submenu-content-one>P {
+    /* padding: 8PX; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.submenu-content-two {
+    text-align: center;
+    width: 230px;
+    padding: 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    margin: 5px;
+}
+
+.submenu-content-two:hover {
+    background: #fff;
+}
+
+.submenu-content-two>h3 {
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.submenu-content-two>P {
+    /* padding: 8PX; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+.submenu-content-one {
+    position: relative;
+    /* background: #203a43; */
+}
+
+.submenu-content-one-link {
+    display: flex;
+    flex-direction: column;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 460px;
+    background: #fff;
+    border-radius: 5px;
+    /* position: relative; */
+    /* margin-left: 7px; */
+    /* margin-right: 10px; */
+}
+
+
+.submenu-link-col-11 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.submenu-link-col-11 div>a {
+    color: #213140;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    justify-content: start;
+    display: flex;
+    transform: .4s ease-in-out;
+    /* padding-bottom: 40px; */
+    padding-left: 50px;
+}
+
+.submenu-link-col-11 div>span {
+    color: #213140;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    justify-content: start;
+    display: flex;
+    transform: .4s ease-in-out;
+    /* padding-bottom: 40px; */
+    padding-left: 50px;
+}
+
+.submenu-link-col-11 div>a:hover {
+    background: none !important;
+    color: #EC008C;
+}
+
+.submenu-link-col-11 div>span:hover {
+    background: none;
+    color: #EC008C;
+}
+
+.submenu-link-col-11 {
+    width: 50%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    margin-left: 8px;
+    padding: 10px;
+}
+
+.submenu-link-col-12 {
+    width: 49%;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+    margin-right: 8px;
+}
+
+/* ====== */
+.submenu-link-col-12 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-bottom: 40px;
+}
+
+.submenu-link-col-11 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-bottom: 40px;
+}
+
+.submenu-link-col-12 div>a {
+    color: #213140;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    justify-content: start;
+    display: flex;
+    transform: .4s ease-in-out;
+    /* padding-bottom: 40px; */
+    padding-left: 50px;
+}
+
+.submenu-link-col-12 div>span {
+    color: #213140;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    justify-content: start;
+    display: flex;
+    transform: .4s ease-in-out;
+    /* padding-bottom: 40px; */
+    padding-left: 50px;
+}
+
+.submenu-link-col-12 div>a:hover {
+    background: none !important;
+    color: #EC008C;
+}
+
+.submenu-link-col-12 div>span:hover {
+    background: none;
+    color: #EC008C;
+}
+
+
+
+
+
+/* ======= */
 /* Header Area End */
 
 
