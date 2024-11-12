@@ -65,7 +65,7 @@
     text-decoration: none;
     color: #fff;
     padding: 30px 20px;
-    transition: .4s ease-in-out;
+    /* transition: .4s ease-in-out; */
     font-weight: 600;
 }
 
@@ -81,7 +81,7 @@
 ul.submenu {
     position: absolute;
     list-style: none;
-    /* visibility: hidden; */
+    visibility: hidden;
     width: 100%;
     left: 0;
     /* background: #ddd; */
@@ -104,7 +104,7 @@ li.submenu-content {
 }
 
 .submenu-content {
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .submenu-content-one {
@@ -113,7 +113,7 @@ li.submenu-content {
     padding: 23px;
     cursor: pointer;
     border-radius: 5px;
-    transition: .2s ease-in-out;
+    /* transition: .2s ease-in-out; */
     margin: 5px;
 }
 
@@ -142,7 +142,7 @@ li.submenu-content {
     padding: 23px;
     cursor: pointer;
     border-radius: 5px;
-    transition: .2s ease-in-out;
+    /* transition: .2s ease-in-out; */
     margin: 5px;
 }
 
@@ -199,7 +199,7 @@ li.submenu-content {
     text-decoration: none;
     justify-content: start;
     display: flex;
-    transform: .4s ease-in-out;
+    /* transform: .4s ease-in-out; */
     /* padding-bottom: 40px; */
     padding-left: 50px;
 }
@@ -211,9 +211,10 @@ li.submenu-content {
     text-decoration: none;
     justify-content: start;
     display: flex;
-    transform: .4s ease-in-out;
+    /* transform: .4s ease-in-out; */
     /* padding-bottom: 40px; */
     padding-left: 50px;
+    font-size: .97rem;
 }
 
 .submenu-link-col-11 div>a:hover {
@@ -266,7 +267,7 @@ li.submenu-content {
     text-decoration: none;
     justify-content: start;
     display: flex;
-    transform: .4s ease-in-out;
+    /* transform: .4s ease-in-out; */
     /* padding-bottom: 40px; */
     padding-left: 50px;
 }
@@ -278,9 +279,10 @@ li.submenu-content {
     text-decoration: none;
     justify-content: start;
     display: flex;
-    transform: .4s ease-in-out;
+    /* transform: .4s ease-in-out; */
     /* padding-bottom: 40px; */
     padding-left: 50px;
+    font-size: .97rem;
 }
 
 .submenu-link-col-12 div>a:hover {
@@ -293,9 +295,29 @@ li.submenu-content {
     color: #EC008C;
 }
 
+.submenu-link-col-11 div>img {
+    position: absolute;
+    /* transition: .4s ease-in-out; */
+}
 
+.submenu-link-col-12 div>img {
+    position: absolute;
+    /* transition: .4s ease-in-out; */
+}
 
+.submenu-link-col-11 div>img:hover {
+    transform: rotate(1turn);
+}
 
+.submenu-link-col-12 div>img:hover {
+    transform: rotate(1turn);
+}
+
+.top-menu ul li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+
+}
 
 /* ======= */
 /* Header Area End */
@@ -564,4 +586,237 @@ li.submenu-content {
     z-index: 99999999999 !important; */
 /* } */
 
+.game-context {
+    display: flex;
+    width: 1170px;
+
+}
+
+.game-col-11 {
+    width: 610px;
+}
+
+.game-video {
+    width: 100%;
+}
+
+.game-col-12 {
+    width: 560px;
+}
+
+.game-context {
+    display: flex;
+    width: 1170px;
+    padding-top: 120px;
+}
+
+.game-content {
+    padding-left: 110px;
+}
+
+.game-content h5 {
+    color: #ec008c;
+    font-weight: 500;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.game-content h2 {
+    text-transform: uppercase;
+    color: #3b4045;
+    padding-right: 150px;
+}
+
+.game-content p {
+    padding-right: 105px;
+}
+
+.game-content a {
+    text-decoration: none;
+    color: #ec008c;
+    transition: .2s ease-in-out;
+}
+
+.game-content a:hover {
+    text-decoration: underline;
+}
+
+.game-content .btn-one {
+    width: 68%;
+    border-radius: 50px;
+}
+
+.game-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 53%;
+    background-color: #ec008c;
+    border-radius: 31px;
+}
+
+.game-btn img {
+    transition: .2s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.game-btn:hover img {
+    transform: rotate(1turn);
+}
+
+.game-btn a {
+    color: #fff;
+    display: block;
+    margin-left: 7px;
+    text-decoration: none;
+}
+
+.game-btn:hover a {
+    text-decoration: none;
+}
+
 /* Game Conntext Start*/
+
+/* code-content Area Start */
+
+.code-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.code-content-11 {
+    width: 610px;
+    padding-right: 181px;
+}
+
+.code-content-12 {
+    width: 560px;
+}
+
+.code-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    /* position: absolute; */
+    margin-top: 124px;
+}
+
+.code-img {
+    position: relative;
+}
+
+.code-btn {
+    position: absolute;
+    margin-top: 74px;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.code-content-left h5 {
+    color: #ec008c;
+    font-weight: 500;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.code-content-left h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #3b4045
+}
+
+/* code-content Area End */
+
+
+
+/* Polular Area Start  */
+
+.popular-area {
+    position: relative;
+
+}
+
+.popular-bg {
+    background: linear-gradient(0deg, #b721ff 0%, #21d4fd 100%);
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    height: 800px;
+    width: 300%;
+    margin-left: -100%;
+    margin-top: 210px;
+    position: relative;
+    z-index: -1;
+    top: 0;
+}
+
+.popular-content {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+
+}
+
+.popular-col-11 {
+    width: 600px;
+}
+
+.popular-col-12 {
+    width: 600px;
+}
+
+.polular-col-12 {
+    margin-top: -60px;
+}
+
+.popular-hero {
+    position: relative;
+}
+
+.popular-video {
+    position: absolute;
+    top: -59px;
+    width: 13%;
+    left: 78px;
+}
+
+.popular-video video {
+    width: 451px;
+    height: 485px;
+}
+
+.popular-left {
+    padding-top: 110px;
+}
+
+.popular-left h5 {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.popular-left h2 {
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-right: 90px;
+}
+
+.popular-left p {
+    padding-right: 168px;
+    color: #fff;
+}
+
+
+/* Polular Area End */
