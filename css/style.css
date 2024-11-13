@@ -1230,3 +1230,51 @@ span.featuresH2Tag {
 }
 
 /* Features Area End */
+
+/* Make Area Start */
+.popular-area.make-area {
+    background: #fff !important;
+    margin-top: -200px !important;
+}
+
+.popular-content .make-content {
+    padding-top: 0px !important;
+}
+
+.make-btn-wrapper {
+    display: flex;
+    gap: 13px;
+}
+
+.make-btn-wrapper .popular-btn {
+    padding: 10px 10px;
+    width: 38%;
+}
+
+.make-btn-wrapper .polular-btn {
+    width: 30%;
+}
+
+.make-content h5 {
+    color: #EC008C;
+}
+
+.make-content h2 {
+    color: #3b4045;
+}
+
+.make-content p {
+    color: #3b4045;
+    padding-right: 90px !important;
+}
+
+.make-content p>span {
+    color: #EC008C;
+    transition: .4s ease-in-out;
+}
+
+.make-content p>span:hover {
+    text-decoration: underline;
+}
+
+/* Make Area End */
