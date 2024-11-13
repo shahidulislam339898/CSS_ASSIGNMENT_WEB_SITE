@@ -1,18 +1,22 @@
 /* 1. Header Area Start */
+
 .header-context {
-    background: linear-gradient(to right, #213140, #203a43, #213140);
+    /* background: linear-gradient(to right, #213140, #203a43, #213140); */
     z-index: 99999999999999999 !important;
-    position: fixed;
-    width: 100%;
+    /* position: fixed; */
+    /* width: 100%; */
 }
 
 
 .header-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 1170px;
+    justify-content: center;
+    width: 100%;
     margin: 0 auto;
+    background: linear-gradient(to right, #213140, #203a43, #213140);
+    position: fixed;
+    z-index: 999999999999999999 !important;
 }
 
 .icon-wrap {
@@ -740,22 +744,37 @@ li.submenu-content {
 
 /* Polular Area Start  */
 
-.popular-area {
-    position: relative;
-
-}
-
-.popular-bg {
+/* .popular-area {
     background: linear-gradient(0deg, #b721ff 0%, #21d4fd 100%);
     -webkit-transform: rotate(-6deg);
     transform: rotate(-6deg);
     height: 800px;
-    width: 300%;
+    width: 100%;
     margin-left: -100%;
     margin-top: 210px;
     position: relative;
     z-index: -1;
     top: 0;
+    */
+/* position: relative; 
+
+}
+
+/* .popular-bg {
+    background: linear-gradient(0deg, #b721ff 0%, #21d4fd 100%);
+     -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg); 
+    height: 800px;
+    width: 100%;
+    margin-left: -100%;
+    margin-top: 210px;
+    position: relative;
+    z-index: -1;
+    top: 0;
+} */
+
+.popular-area {
+    position: relative;
 }
 
 .popular-content {
@@ -766,7 +785,15 @@ li.submenu-content {
     z-index: 1;
     left: 0;
     right: 0;
+    background: linear-gradient(0deg, #b721ff 0%, #21d4fd 100%);
 
+    /* transform: rotate(-6deg); */
+    /* height: 800px; */
+    /* width: 300%; */
+    /* margin-left: -100%; */
+    margin-top: 210px;
+    /* position: relative;
+    z-index: 1; */
 }
 
 .popular-col-11 {
@@ -781,20 +808,25 @@ li.submenu-content {
     margin-top: -60px;
 }
 
+.popular-hero img {
+    width: 924px;
+}
+
 .popular-hero {
     position: relative;
 }
 
 .popular-video {
     position: absolute;
-    top: -59px;
-    width: 13%;
-    left: 78px;
+    top: 86px;
+    width: 17%;
+    left: 138px;
 }
 
 .popular-video video {
-    width: 451px;
-    height: 485px;
+    width: 781px;
+    height: 400px;
+    padding-right: 57px;
 }
 
 .popular-left {
