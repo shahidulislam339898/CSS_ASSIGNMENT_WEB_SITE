@@ -8,6 +8,7 @@
 }
 
 
+
 .header-info {
     display: flex;
     align-items: center;
@@ -17,6 +18,7 @@
     background: linear-gradient(to right, #213140, #203a43, #213140);
     position: fixed;
     z-index: 999999999999999999 !important;
+    column-gap: 93px;
 }
 
 .icon-wrap {
@@ -693,13 +695,14 @@ li.submenu-content {
 }
 
 .code-content-11 {
-    width: 610px;
+    width: 585px;
     padding-right: 181px;
 }
 
-.code-content-12 {
-    width: 560px;
+.col.code-context-12 {
+    width: 585px;
 }
+
 
 .code-content-right {
     display: flex;
@@ -775,18 +778,19 @@ li.submenu-content {
 
 .popular-area {
     position: relative;
+    background: linear-gradient(0deg, #b721ff 0%, #21d4fd 100%);
 }
 
 .popular-content {
     display: flex;
-    justify-content: center;
-    position: absolute;
+    /* justify-content: center; */
+    margin: 0 auto;
+    /* position: absolute; */
     top: 0;
     z-index: 1;
     left: 0;
     right: 0;
-    background: linear-gradient(0deg, #b721ff 0%, #21d4fd 100%);
-
+    /* background: linear-gradient(0deg, #b721ff 0%, #21d4fd 100%); */
     /* transform: rotate(-6deg); */
     /* height: 800px; */
     /* width: 300%; */
@@ -794,18 +798,19 @@ li.submenu-content {
     margin-top: 210px;
     /* position: relative;
     z-index: 1; */
+    margin-bottom: 75px;
+    width: 1170px;
 }
 
 .popular-col-11 {
-    width: 600px;
-}
-
-.popular-col-12 {
-    width: 600px;
+    /* width: 585px; */
+    width: 50%;
 }
 
 .polular-col-12 {
-    margin-top: -60px;
+    margin-top: -70px;
+    /* width: 585px; */
+    width: 50%;
 }
 
 .popular-hero img {
@@ -830,7 +835,7 @@ li.submenu-content {
 }
 
 .popular-left {
-    padding-top: 110px;
+    padding-top: 65px;
 }
 
 .popular-left h5 {
@@ -851,4 +856,167 @@ li.submenu-content {
 }
 
 
+.popular-btn {
+    background-color: #ec008c;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 28px;
+}
+
+.popular-btn img {
+    color: #fff;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.popular-btn a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+.popular-btn:hover>img {
+    transform: rotate(1turn);
+}
+
+
+.popular-bottom {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.polular-bottom-col11 {
+    width: 33.3333%;
+}
+
+.polular-bottom-col12 {
+    width: 33.3333%;
+}
+
+.polular-bottom-col13 {
+    width: 33.3333%;
+}
+
+.polular-bottom-left {
+    padding-right: 120px;
+}
+
+.polular-bottom-left h3 {
+    color: #fff;
+    font-size: 1.7rem !important;
+    line-height: 0rem;
+}
+
+.polular-bottom-left p {
+    font-weight: 600;
+}
+
+.polular-bottom-middle {
+    padding-right: 135px;
+}
+
+.polular-bottom-middle h3 {
+    color: #fff;
+    font-size: 1.7rem !important;
+    line-height: 0rem;
+}
+
+.polular-bottom-middle p {
+    font-weight: 600;
+}
+
+.polular-bottom-right {
+    padding-right: 120px;
+}
+
+.polular-bottom-right h3 {
+    color: #fff;
+    font-size: 1.7rem !important;
+    line-height: 0rem;
+}
+
+.polular-bottom-middle p {
+    font-weight: 600;
+}
+
+
 /* Polular Area End */
+
+
+/* Build Area start */
+.build-area {
+    padding-top: 460px;
+    background: #fcfcfc;
+    padding-bottom: 350px;
+    background-size: cover;
+
+}
+
+.build-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.build-left-wrapper {
+    position: relative;
+}
+
+.build-left-video {
+    position: absolute;
+    top: -358px;
+    /* left: 87px; */
+    right: -83px;
+    bottom: 0;
+}
+
+
+.build-content video {
+    /* width: 100%; */
+    height: 185%;
+}
+
+.build-content img {
+    /* width: 100%; */
+    position: absolute;
+    right: 0;
+    top: -500px;
+    transform: perspective(800px) rotateY(5deg);
+
+    .stunningHero img {
+        -webkit-transform: perspective(800px) rotateY(5deg);
+        /* transform: perspective(800px) rotateY(5deg); */
+    }
+}
+
+.build-text {
+    padding-left: 106px;
+}
+
+
+.build-menu {
+    display: flex;
+    column-gap: 85px;
+}
+
+.build-menu li img {
+    width: 32px !important;
+}
+
+.build-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.build-menu ul li {
+    display: flex;
+    column-gap: 7px
+}
+
+/* Build Area End */
