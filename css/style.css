@@ -955,7 +955,7 @@ li.submenu-content {
     background: #fcfcfc;
     padding-bottom: 350px;
     background-size: cover;
-    border: 5px solid green;
+    /* border: 5px solid green; */
 }
 
 .build-content {
@@ -1048,7 +1048,7 @@ span.build-head-tag {
 
 /* HP Area Start */
 .high-performance-area {
-    border: 5px solid goldenrod;
+    /* border: 5px solid goldenrod; */
     margin-top: 5px;
     margin-bottom: 5px;
 }
