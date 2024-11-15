@@ -30,6 +30,11 @@
 
 .icon-wrap img {
     margin-right: 10px;
+    transition: .3s ease-in-out;
+}
+
+img.turn:hover {
+    transform: rotate(1turn);
 }
 
 .header-btn {
@@ -109,9 +114,7 @@ li.submenu-content {
     width: 700px;
 }
 
-.submenu-content {
-    /* border: 2px solid black; */
-}
+
 
 .submenu-content-one {
     text-align: center;
@@ -121,6 +124,12 @@ li.submenu-content {
     border-radius: 5px;
     /* transition: .2s ease-in-out; */
     margin: 5px;
+}
+
+.submenu-content-one>img {
+    background-color: #3b4045;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .submenu-content-one:hover {
@@ -150,6 +159,12 @@ li.submenu-content {
     border-radius: 5px;
     /* transition: .2s ease-in-out; */
     margin: 5px;
+}
+
+.submenu-content-two>img {
+    background-color: #3b4045;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .submenu-content-two:hover {
@@ -303,12 +318,12 @@ li.submenu-content {
 
 .submenu-link-col-11 div>img {
     position: absolute;
-    /* transition: .4s ease-in-out; */
+    transition: .1s ease-in-out;
 }
 
 .submenu-link-col-12 div>img {
     position: absolute;
-    /* transition: .4s ease-in-out; */
+    transition: .1s ease-in-out;
 }
 
 .submenu-link-col-11 div>img:hover {
@@ -389,6 +404,14 @@ li.submenu-content {
 .hero-btn a {
     text-decoration: none;
     font-weight: 500;
+}
+
+a.btn-one:hover>img {
+    transform: rotate(1turn);
+}
+
+a.btn-one img {
+    transition: .3s ease-in-out;
 }
 
 .hero-btn .btn-one {
